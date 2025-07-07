@@ -6,7 +6,7 @@ module Top(clk, reset);
     wire [2:0]      dmemMode;
     wire            dmemWE;      
 
-    Single_Cycle_RV32I RV32I_Logic(
+    RISCV_Single_Cycle RV32I_Logic(
         .clk(clk), 
         .reset(reset), 
         .inst(inst),
