@@ -1,16 +1,3 @@
-
-// -------------------------------- //
-//	By: Bryce Keen	
-//	Created: 11/24/2022
-// -------------------------------- //
-//	Last Modified: 01/25/2023
-
-//
-//	control_logic.v
-//		RV32I Control Logic
-//
-
-
 module control_logic(inst, jump, ALUControl, dmemMode, 
                      immSEL, regSEL, pcSEL, dmemWE, 
                      regWE, rs1SEL, rs2SEL, clk, reset);

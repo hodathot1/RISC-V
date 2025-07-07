@@ -1,18 +1,3 @@
-
-//
-//	mux4.v
-//		Adjustable data width mux 4
-//
-
-// -------------------------------- //
-//	By: Bryce Keen	
-//	Created: 01/15/2023
-// -------------------------------- //
-//	Last Modified: 01/15/2023
-
-// Change Log:	NA
-
-
 module mux4(a, b, c, d, sel, y);
 	parameter WIDTH = 32;
 	

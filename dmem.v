@@ -1,19 +1,3 @@
-
-//
-//	dmem.v
-//		Data Memory
-//
-
-// -------------------------------- //
-//	By: Bryce Keen	
-//	Created: 10/08/2022
-// -------------------------------- //
-//	Last Modified: 11/01/2022
-
-// Change Log:
-//		11/01/2022 - Added Reset, modes, changed memory to byte addressable
-
-
 module dmem(a, rd, wd, clk, we, mode, reset);
 	input wire 			clk, we, reset;
 	input wire [2:0]	mode;

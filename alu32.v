@@ -1,18 +1,3 @@
-
-//
-//	alu32.v
-//		32 bit ALU for the RV32I implement
-//
-
-// -------------------------------- //
-//	By: Bryce Keen	
-//	Created: 10/03/2022
-// -------------------------------- //
-//	Last Modified: 10/24/2022
-
-// Change Log:	NA
-
-
 module alu32(a, b, ALUControl, result);
 	input wire [31:0]	a, b;
 	input wire [3:0]	ALUControl;

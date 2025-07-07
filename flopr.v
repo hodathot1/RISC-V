@@ -1,17 +1,3 @@
-
-//
-//	flopr.v
-//		Resetable flip-flop
-//
-
-// -------------------------------- //
-//	By: Bryce Keen	
-//	Created: 10/16/2022
-// -------------------------------- //
-//	Last Modified: 01/19/2023
-
-// Change Log:	NA
-
 module flopr(d, q, clk, reset);
 	parameter WIDTH = 32;
 	parameter INIT = 0;

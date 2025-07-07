@@ -1,18 +1,3 @@
-
-//
-//	Top.v
-//		Top level module for my Single Cycle RV32I
-//
-
-// -------------------------------- //
-//	By: Bryce Keen	
-//	Created: 01/25/2023
-// -------------------------------- //
-//	Last Modified: 01/25/2023
-
-// Change Log:	NA
-
-
 module Top(clk, reset);
     input wire      clk, reset;
 

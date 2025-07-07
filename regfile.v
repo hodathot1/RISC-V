@@ -1,17 +1,3 @@
-
-//
-//	regfile.v
-//		Register file for the RV32I
-//
-
-// -------------------------------- //
-//	By: Bryce Keen	
-//	Created: 09/29/2022
-// -------------------------------- //
-//	Last Modified: 01/19/2023
-
-// Change Log:	NA
-
 module regfile(rs1, rs2, wrs3, rd, we, clk, reset, rdout1, rdout2);
 	input wire 				clk, we, reset;
 	input wire [4:0]		rs1, rs2, rd;

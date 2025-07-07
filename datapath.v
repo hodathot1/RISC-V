@@ -1,17 +1,3 @@
-
-//
-//	datapath.v
-//		RV32I datapath
-//
-
-// -------------------------------- //
-//	By: Bryce Keen	
-//	Created: 12/04/2022
-// -------------------------------- //
-//	Last Modified: 01/16/2022
-
-// Change Log:	NA
-
 module datapath(clk, reset, regWE, rs1sel, 
                 rs2sel, regsel, PCsel, ImmSel, 
                 ALUControl,  Instr,  dmemData, 

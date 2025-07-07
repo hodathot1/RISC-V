@@ -1,18 +1,4 @@
-
-//
-//	Single_Cycle_RV32I.v
-//		Single Cycle RV32I
-//
-
-// -------------------------------- //
-//	By: Bryce Keen	
-//	Created: 01/25/2023
-// -------------------------------- //
-//	Last Modified: 01/25/2023
-
-// Change Log:	NA
-
-module Single_Cycle_RV32I(clk, reset, inst, pc, dmemWE, dmemMode, dmemAdrs, dmemDataRead, dmemDataStore);
+module RISCV_Single_Cycle(clk, reset, inst, pc, dmemWE, dmemMode, dmemAdrs, dmemDataRead, dmemDataStore);
     input wire          clk, reset;
     input wire [31:0]   inst, dmemDataRead;
 

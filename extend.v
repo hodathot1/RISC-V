@@ -1,17 +1,3 @@
-
-//
-//	extend.v
-//		Immediate Extension
-//
-
-// -------------------------------- //
-//	By: Bryce Keen	
-//	Created: 10/08/2022
-// -------------------------------- //
-//	Last Modified: 10/11/2022
-
-// Change Log:	NA
-
 module extend(Instr, ImmSrc, ExtImm);
 	input wire [2:0]	ImmSrc;
 	input wire [24:0]	Instr;
